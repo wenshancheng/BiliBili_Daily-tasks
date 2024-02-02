@@ -2,17 +2,17 @@
 User_Cookie: "" # 直接复制你的B站Cookie放到这,多个Cookie之间用逗号隔开(选中👉buvid3👈Ctrl+F快速查找多个Cookie)
 
 # 用户Cookie配置
-Cookie_Number: 1 # 默认只处理一个Cookie,多个请填写按顺序正确Cookie数量
+Cookie_Number: 1 # 1则只处理一个Cookie,多个Cookie则按照User_Cookie填写顺序执行
 
 # B站直播签到配置
 Silver: 1 # 是否用银瓜子兑换硬币(0否/1是)
 
 # 指定B站用户视频
-Appoint_Up: 0 # 是否指定up主(0否/1是)
+Appoint_Up: 1 # 是否指定up主(0否/1是)
 Up_Uid: # 指定up主的UID(如果cookie数量大于指定数量,默认多出cookie的使用第一个)
   - "1": # 第一个cookie指定的UID
-      - 456664753 # UID
-      - 330383888 # 多个以此类推
+      -  # UID
+      -  # 多个以此类推
 # - "2":
 
 # 指定是否投币
