@@ -31,7 +31,7 @@ def determine(exp,coin):
     if text['Coin'] == 0: print('是否投币👉 No'); return 0
     else:
         print('是否投币👉 YES')
-        if exp == 0: print("已经完成投币任务😳"); return 0
+        if exp == 0: print("已经完成视频投币任务😳"); return 0
         else:
             if coin == 0:  print("你的硬币不足已停止投币😫")
             else:
