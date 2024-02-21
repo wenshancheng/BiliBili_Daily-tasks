@@ -113,9 +113,9 @@ class put:
                 Coin = multiply()
                 post = {'aid': aid[random.randint(0,49)],'multiply': Coin,'select_like': 0,'cross_domain': 'true','ramval': 0,'csrf': list[1]['bili_jct']}
                 if Coin == 2:
-                    res = request().post([self.url['Put_Coin'],list[0],post]); num+=2
+                    res = request().post([self.url['Put_Coin'],list[1],post]); num+=2
                 else:
-                    res = request().post([self.url['Put_Coin'],list[0],post]); num+=1               
+                    res = request().post([self.url['Put_Coin'],list[1],post]); num+=1               
                 if res['code'] == 0: print('正在投出'+str(num)+'个硬币')
                 elif res['code'] == 34005: print("超过投币上限啦")
                 else: err+=1; print("投币请求异常")
