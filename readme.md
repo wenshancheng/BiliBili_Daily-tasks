@@ -3,7 +3,7 @@
 ### 个人学习成果如有不足请多多指教😁 如果你喜欢请个点赞
 
 ### 代码使用到以下包需提前安装
-**pip install request_html / time / random**
+**pip install request_html / time / random / pyyaml**
 
 ## 使用说明
 1. 将B站Cookie复制到config.yml文件的**User_Cookie**里。多个Cookie则在两个Cookie之间加个英文逗号(**无需空格**)
