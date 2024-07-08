@@ -15,6 +15,6 @@
 6. Coin_Number 👉 你Cookie的投币数量 1 或 2 (不填写则为1)
 7. Exchange_Coin 👉 你Cookie是否执行兑换(False / True)不填写则为True
 ## 
-![avatar](./pg/1.png)
+![avatar](./pg/1.jpg)
 
 
