@@ -2,7 +2,7 @@
 
 ## 使用说明
 
-### 使用前请安装以下库👉 request_html、time、random
+### 脚本需要用到以下库👉 request_html、time、random
 
 ### 或在控制台运行👉 **pip install -r requirements.txt**
 
