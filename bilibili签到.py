@@ -181,6 +181,7 @@ class RunTask:
         push("\n#正在进行分享视频任务#")
         post_data = {
             "aid": aid[random.randint(0, len(aid) - 1)],
+            "sourece": "web_normal",
             "csrf": self.token['bili_jct']
         }
         response = Session.post(
